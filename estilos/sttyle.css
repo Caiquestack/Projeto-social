@@ -24,6 +24,12 @@ main {
     height: 100vh;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    /* Esse código esconde a barra de rolagem lateral, tirando a rolagem. */
+}
+
 /* Imagem do telefone com a posição no centro da tela. */
 section#telefone {
     position: absolute;
@@ -47,8 +53,6 @@ section#telefone {
 
 /* Estilo dos botões*/
 section#redes-sociais {
-    display: flex;
-    flex-direction: column;
     text-align: right;
 }
 
